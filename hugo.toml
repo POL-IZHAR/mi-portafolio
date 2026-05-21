@@ -1,0 +1,22 @@
+baseURL = 'https://tu-usuario.github.io/'
+languageCode = 'es-mx'
+title = 'Portafolio | Jareth Lopez'
+theme = 'PaperMod'
+
+[params]
+  
+  mainSections = ["posts"]
+
+  # Configuración de la tarjeta de presentación
+  [params.homeInfoParams]
+    Title = "Hola, soy Jareth 👋"
+    Content = "Estudiante de 4to semestre de Ingeniería en Software en la UABC."
+
+  # Redes sociales (Puedes ajustar los enlaces a tus perfiles reales)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/tu-usuario"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/tu-usuario"
