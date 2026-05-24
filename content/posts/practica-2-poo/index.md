@@ -1,6 +1,7 @@
 ---
 title: "Práctica 2: Sistema de Gestión de Estacionamiento con Programación Orientada a Objetos y Flask"
 date: 2026-05-23T23:00:00-07:00
+weight: 2
 draft: false
 tags: ["Python", "POO", "Flask", "Backend"]
 description: "Implementación de un sistema de gestión de estacionamiento utilizando Programación Orientada a Objetos y desplegado en un servidor local con Flask."
@@ -222,4 +223,4 @@ Como trabajo futuro, el sistema podría extenderse con persistencia en base de d
 
 ---
 ## Código Fuente
-[📦 Descargar código de la Práctica 2 (ZIP)](codigo_practica2.zip)
+[ Descargar código de la Práctica 2 (ZIP)](codigo_practica2.zip)
