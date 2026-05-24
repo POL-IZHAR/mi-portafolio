@@ -219,3 +219,7 @@ El desarrollo de este sistema permitió consolidar el uso práctico de los cuatr
 La integración con Flask demostró cómo una capa de objetos bien diseñada puede conectarse con tecnologías web de manera limpia, exponiendo únicamente la interfaz necesaria a través de endpoints REST. Esto refuerza el concepto de abstracción: los consumidores del API no necesitan conocer la lógica interna para interactuar con el estacionamiento.
 
 Como trabajo futuro, el sistema podría extenderse con persistencia en base de datos, autenticación, y el uso del patrón de diseño Observer para notificaciones en tiempo real.
+
+---
+## Código Fuente
+[📦 Descargar código de la Práctica 2 (ZIP)](codigo_practica2.zip)
