@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard - Estacionamiento{% endblock %}
+{% block content %}
+    {% if mensaje %}<div class="alert-success">{{ mensaje }}</div>{% endif %}
+    {% if error %}<div class="alert-danger">{{ error }}</div>{% endif %}
+
+    <div class="card">
+        <h2 style="margin-top:0;">📊 Resumen de Ocupación</h2>
+        <div style="display:flex; justify-content:space-around; font-size:1.2em; font-weight:bold;">
+            <span style="color:#2ecc71;">Espacios Libres: {{ libres }}</span>
+            <span style="color:#e74c3c;">Espacios Ocupados: {{ ocupados }}</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🎟️ Tickets Activos (Vehículos dentro)</h2>
+        {% if tickets %}
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Ticket</th>
+                    <th>Placas</th>
+                    <th>Tipo</th>
+                    <th>Espacio Asignado</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                {% for t in tickets %}
+                <tr>
+                    <td><b>#{{ t.id_ticket }}</b></td>
+                    <td>{{ t.vehiculo.placas }}</td>
+                    <td>{{ t.vehiculo.tipo }}</td>
+                    <td><span style="background:#e0e0e0; padding:2px 6px; border-radius:4px;">{{ t.spot.id_spot }}</span></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p style="color:#7f8c8d;">No hay vehículos estacionados en este momento.</p>
+        {% endif %}
+    </div>
+{% endblock %}
