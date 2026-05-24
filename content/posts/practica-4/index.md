@@ -11,6 +11,7 @@ description: "Implementación del puzzle clásico Torres de Hanoi y el problema 
 **Materia:** PARADIGMAS DE LA PROGRAMACION  
 **Practica:** Torres de Hanoi | Mono y la Banana  
 **Lenguaje:** Prolog (SWI-Prolog)
+
 ---
 
 ## 1. Introduccion al Paradigma Logico
