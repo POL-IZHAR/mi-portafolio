@@ -7,8 +7,8 @@ tags: ["C", "Estructura de Datos", "Gestión de Memoria"]
 description: "Simulador de cola de impresión para contrastar el uso de memoria estática vs dinámica en C."
 ---
 
-**Nombre:** JARETH IZHAR APARICIO LOPEZ
-**Matrícula:** 376619
+**Nombre:** JARETH IZHAR APARICIO LOPEZ  
+**Matrícula:** 376619  
 **Materia:** PARADIGMAS DE LA PROGRAMACION
 
 ---
