@@ -1,6 +1,7 @@
 ---
-title: "Reporte: Sintaxis y uso de Markdown"
+title: "Práctica 0: Reporte: Sintaxis y uso de Markdown"
 date: 2026-02-20T21:27:36-08:00
+weight: 0
 draft: false
 ---
 # Reporte: Sintaxis y uso de Markdown
