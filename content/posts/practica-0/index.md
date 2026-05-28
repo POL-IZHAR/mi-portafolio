@@ -1,8 +1,9 @@
-----------
-date = '2026-02-20T21:27:36-08:00'
-draft = false
-title = 'Reporte'
-+++
+---
+title: "Reporte: Sintaxis y uso de Markdown"
+date: 2026-02-20T21:27:36-08:00
+draft: false
+---
+# Reporte: Sintaxis y uso de Markdown
 # Reporte: Sintaxis y uso de Markdown
 -----------
 ## 1. ¿Qué es Markdown?
